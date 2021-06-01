@@ -53,6 +53,7 @@ mov bx,0
 mov cx,2000
 
 s:mov byte ptr es:[bx],'a'
+mov  byte ptr es:[bx+1],00011100b
 add bx,2
 loop s
 
